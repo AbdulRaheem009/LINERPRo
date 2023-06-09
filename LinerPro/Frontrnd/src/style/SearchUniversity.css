@@ -1,0 +1,18 @@
+.center {
+  display: flex !important;
+  justify-content: center !important;
+}
+
+.mainbody {
+  display: flex;
+  margin-top: 20px;
+}
+
+.dataBox {
+  display: block;
+  margin-top: 25px;
+}
+
+.searchBar {
+  width: 70%;
+}

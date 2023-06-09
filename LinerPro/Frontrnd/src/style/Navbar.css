@@ -1,0 +1,34 @@
+.appbar {
+  background-color: White !important;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid Grey;
+  padding: 0px;
+}
+
+.navButton {
+  padding: 10px !important;
+  margin-top: 10px !important;
+  margin-right: 10px !important;
+}
+
+.menuButton {
+    color: "black";
+}
+
+.logoImg {
+  width: 100px;
+  height: 50px;
+}
+
+@media only screen and (max-width: 768px) {
+  .navButton {
+    padding: 6px !important;
+    margin-top: 2px !important;
+  }
+
+  .logoImg {
+    width: 80px;
+    height: 50px;
+  }
+}

@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Special+Elite&display=swap");
+
+* {
+  font-family: "Times New Roman", cursive !important;
+}
+
+.homeBody {
+  display: flex !important;
+}
+
+.heroBody {
+  text-align: justify;
+  margin-top: 15px !important;
+}
+
+.heroImage {
+  width: 350px;
+  height: 350px;
+  margin-left: 60px;
+}
+
+.heroButton {
+  padding: 10px !important;
+  margin-top: 5% !important;
+  margin-left: 40% !important;
+}
+
+@media only screen and (max-width: 768px) {
+  .homeBody {
+    display: block !important;
+  }
+
+  .heroImage {
+    width: 210px !important;
+    height: 210px !important;
+    margin-left: 30px !important;
+  }
+
+  .heroButton {
+    padding: 10px !important;
+    margin-top: 5% !important;
+    margin-left: 20% !important;
+  }
+
+  .container .btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #555;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .container .btn:hover {
+    background-color: black;
+  }
+}

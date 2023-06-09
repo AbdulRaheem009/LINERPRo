@@ -1,0 +1,26 @@
+{
+  "name": "Localhost Extension",
+  "version": "1.0",
+  "manifest_version": 3,
+  "description": "Open localhost website in a new tab",
+  "host_permissions": [
+    "http://localhost:3000/extensionUi"
+  ],
+  "icons": {
+    "16": "logo.png",
+    "32": "logo192.png",
+    "48": "logo512.png",
+    "128": "logo.png"
+  },
+  "action": 
+    {
+    "default_title": "Open localhost website",
+    "default_popup": "index.html"
+  },
+ 
+
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self';",
+    "sandbox": "sandbox allow-scripts allow-forms allow-popups allow-modals; script-src 'self' 'unsafe-inline' 'unsafe-eval'; child-src 'self';"
+  }
+}

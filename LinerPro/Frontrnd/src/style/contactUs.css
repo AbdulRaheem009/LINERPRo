@@ -1,0 +1,25 @@
+.mainBody {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.formAndImage {
+  display: flex !important;
+}
+
+.contactPic {
+  width: 350px;
+  height: 350px;
+}
+
+@media only screen and (max-width: 768px) {
+  .formAndImage {
+    display: block !important;
+  }
+
+  .contactPic {
+    width: 250px;
+    height: 250px;
+  }
+}

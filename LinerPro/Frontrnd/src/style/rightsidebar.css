@@ -1,0 +1,8 @@
+.rightsidebar {
+    position: fixed;
+    top: 8%;
+    left: 77.8%;
+    height: 100vh;
+    width: 25%;
+    background-color: #fff;
+}

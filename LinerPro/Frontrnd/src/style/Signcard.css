@@ -1,0 +1,31 @@
+.signupcard {
+	background-color: white;
+	color: #272727;
+	border-radius: 10px;
+	border: 0px;
+	border-color:#86d704;
+	border-style: solid;
+}
+
+.signupcard:hover {
+	transition: 200ms;
+	border: 3px;
+	border-color:#86d704;
+	border-style: solid;
+}
+
+.signupcard-header {
+	display: flex;
+	flex-wrap: nowrap;
+	align-items: center;
+
+}
+.signupbackground{
+	background: #e0e0ec;
+}
+.signtext{
+	color: black;
+}
+.signtext:hover{
+	color: #86d704;
+}
